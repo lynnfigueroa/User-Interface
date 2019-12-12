@@ -64,84 +64,114 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-.container {
-	width: 900px;
-	margin: auto;
-	margin-bottom: 50px;
+.container{
+	width: 880px;
+	margin: 0 auto;
 }
 
-header nav {
+header nav{
 	display: inline-block;
+	width: 691px;
+	vertical-align: top;
 	margin-top: 35px;
-	color: gray;
 }
 
 header nav a{
-	margin: 20px;
+	margin-right: 65px;
+	font-size: 14px;
+	color: gray;
 }
 
-header img {
-	margin-left: 140px;
+header nav a: first-child{
+	margin-left: 0;
 }
 
-.innovation {
-	display: inline-block;
-	margin: auto;
+header nav a: last-child{
+	margin-right: 0;
 }
 
-.innovation img{
-	margin-left: 500px;
-	margin-top: 40px;
+.logo{
+	margin-top: 25px;
 }
 
-.innovation p{
-	display: inline-block;
-	border: 1px solid black;
-	padding: 10px 50px;
+h1{
+	vertical-align: top;
+	margin-top: 20%;
+	padding: 0px 75px;
+	font-size: 77px;
 	text-align: center;
+}
+
+.innovation{
+	display: inline-block;
+	width: 50%;
+}
+
+.title button{
+	margin-top: 6px;
+	padding: 8px 44px;
+	border: 1px solid black;
+	background: white;
+	margin-left: 30%;
+}
+
+.title img{
+	display: inline-block;
+	width: 50%;
+	float: right;
 }
 
 .mainContent{
 	border-top: 1px solid black;
-	margin: auto;
-	padding: 50px;
+	margin-top: 76px;
+	padding-top: 39px;
 }
 
-#topic1{
-	width:50%;
+.upperContent{
+	padding: 0 10px;
+}
+
+.upperContent .content{
+	width: 410px;
 	display: inline-block;
-	float: left;
+	margin-right: 34px;
 }
 
-#topic2{
-	width: 50%;
+.upperContent .content:last-child{
+	margin-right: 0;
+}
+
+.middle-img{
+	margin-top: 45px;
+}
+
+.bottomContent{
+	margin-top: 37px;
+	padding: 0 10px;
+}
+
+.bottomContent .content{
+	width: 19%;
 	display: inline-block;
+	margin-right: 13%; 
 }
 
-#topic3{
-	width: 30%;
-	display: inline-block;
-	float: left;
+.bottomContent .content:last-child{
+	margin-right: 0;
 }
 
-#topic4{
-	width: 30%;
-	display: inline-block;
-	float: left;
-}
-
-#topic5{
-	display: inline-block;
-	width: 30%;
-}
-
-#mainImg{
-	width: 900px;
-	text-align: center;
-}
-
-.contact {
+.contact{
+	margin-top: 57px;
 	border-top: 1px solid black;
-	margin: auto;
+	padding: 39px 10px 0;
 }
 
+.contact p{
+	margin: 20px 0;
+}
+
+footer{
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
+}
