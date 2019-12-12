@@ -64,3 +64,114 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container{
+	width: 880px;
+	margin: 0 auto;
+}
+
+header nav{
+	display: inline-block;
+	width: 691px;
+	vertical-align: top;
+	margin-top: 35px;
+}
+
+header nav a{
+	margin-right: 65px;
+	font-size: 14px;
+	color: gray;
+}
+
+header nav a: first-child{
+	margin-left: 0;
+}
+
+header nav a: last-child{
+	margin-right: 0;
+}
+
+.logo{
+	margin-top: 25px;
+}
+
+h1{
+	vertical-align: top;
+	margin-top: 20%;
+	padding: 0px 75px;
+	font-size: 77px;
+	text-align: center;
+}
+
+.innovation{
+	display: inline-block;
+	width: 50%;
+}
+
+.title button{
+	margin-top: 6px;
+	padding: 8px 44px;
+	border: 1px solid black;
+	background: white;
+	margin-left: 30%;
+}
+
+.title img{
+	display: inline-block;
+	width: 50%;
+	float: right;
+}
+
+.mainContent{
+	border-top: 1px solid black;
+	margin-top: 76px;
+	padding-top: 39px;
+}
+
+.upperContent{
+	padding: 0 10px;
+}
+
+.upperContent .content{
+	width: 410px;
+	display: inline-block;
+	margin-right: 34px;
+}
+
+.upperContent .content:last-child{
+	margin-right: 0;
+}
+
+.middle-img{
+	margin-top: 45px;
+}
+
+.bottomContent{
+	margin-top: 37px;
+	padding: 0 10px;
+}
+
+.bottomContent .content{
+	width: 19%;
+	display: inline-block;
+	margin-right: 13%; 
+}
+
+.bottomContent .content:last-child{
+	margin-right: 0;
+}
+
+.contact{
+	margin-top: 57px;
+	border-top: 1px solid black;
+	padding: 39px 10px 0;
+}
+
+.contact p{
+	margin: 20px 0;
+}
+
+footer{
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
+}
